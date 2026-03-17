@@ -1,0 +1,5 @@
+ pair={}
+        for i,n in enumerate(nums):
+            if target - n in pair:
+                return [i,pair[target-n]]
+            pair[n] =i
